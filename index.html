@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Juan Aviles</title>
+    
+    <!-- Carga de fuente GOLOS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+
+    <!--conexion de hoja de estilos-->
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <!-- Font awasome-->
+    <script src="https://kit.fontawesome.com/f209b5e89d.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
+</head>
+
+<body>
+
+    <section>
+        <div id="foto-perfil">
+        <img src="https://randomuser.me/api/portraits/men/74.jpg" alt="Foto de perfil">
+        </div>
+        <i class="fa-regular fa-user"></i>
+        <h1>NEMO <br>CLOWNFISH</h1>
+        <h3>
+            <i class="fa-solid fa-code"></i>
+            Desarrollador web
+        </h3>
+    <!-- Datos personales-->
+        <article>
+            <h2>
+                <i class="fa-solid fa-house"></i>
+                Datos personales
+            </h2>
+            <p>P. Sherman, calle Wallaby, 42, Sydney</p>
+        </article>
+            <h2>
+                <i class="fa-solid fa-envelope"></i>
+                Contacto
+            </h2>
+            <p>e-mail: nemoc@seamail.com</p>
+            <p>Celular: +54 111 1111</p>
+            <p>web: www.nemoclownfish-dev.com</p>
+ 
+    </section>
+  
+<!--Area de datos laborales-->    
+    <aside>
+        <div class="laboral">
+            <h2>C U R R I C U L U M &#160;&#160;&#160;V I T A E</h2>
+            
+        </div>
+            <div class="laboral">
+                <h3>Experiencia</h3>
+                <button type="button" id="experiencia_mas">mostrar +</button>
+                <button type="button" id="experiencia_menos">mostrar -</button>
+                <p >
+                    <ul id="detalle_exp" style="display: none;">
+                        <li >1996 / 2008 - Pixar inc.- Jr. designer</li>
+                        <div class="popup-button">
+                            <button>Detalle</button>
+                            <div class="popup">Asistente de proyecto pelicula Cars</div>
+                          </div>
+                        <li>2009 / actual / Disney Co. / Sr. designer</li>
+                        <div class="popup-button">
+                            <button>Detalle</button>
+                            <div class="popup">Director de proyecto Pelicula Lightyear</div>
+                          </div>
+                    </ul>
+                  
+                </p>
+            </div>
+            
+
+            <div class="laboral">
+                <h3>Habilidades</h3>
+                <button type="button" id="habilidades_mas">mostrar +</button>
+                <button type="button" id="habilidades_menos">mostrar -</button>
+                
+                <p>
+                    <ul id="detalle_hab" style="display: none;">
+                        <li >HTML / CSS3 / JS</li>
+                        <li>NODE JS</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="laboral">
+                <h3>Intereses</h3>
+                <button type="button" id="intereses_mas">mostrar +</button>
+                <button type="button" id="intereses_menos">mostrar -</button>
+                
+                <p>
+                    <ul id="detalle_int" style="display: none;">
+                        <li><i class="fa-solid fa-camera-retro"></i>Fotografo amateur</li>
+                        <li><i class="fa-solid fa-music"></i> Guitarrista de fogon</li>
+                        <li><i class="fa-solid fa-film"></i>Cine lover</li>
+                        
+                    </ul>
+                </p>
+            </div>
+
+
+        </aside>
+    
+    <script src="main.js"></script>
+
+</body>
+
+</html>

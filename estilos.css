@@ -1,0 +1,64 @@
+*{
+    font-family: 'Golos Text', sans-serif;
+    text-align: center;
+    border-style: none;
+}
+
+#foto-perfil{
+    margin-top: 20px;
+}
+h2{
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3{
+    background-color: black;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+article{
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+section {
+    margin: 0px;
+    background-color: rgb(77, 73, 73);
+    color: white;
+    width: 28%;
+    float: left;
+}
+
+aside{
+    margin: 0px;
+    background-color: white;
+    color: black;
+    width: 68%;
+    float: left;
+}
+
+button{
+    background-color: white;
+    color: grey;
+}
+
+.popup{
+    display: none;
+    color: black;
+    text-align: center;
+    width: 1000px;
+    height: 20px;
+    
+  }
+
+  .popup-button:hover .popup, #detalle_exp{
+    display: block;
+    font-weight: bold;
+    }
+  li{
+    font-weight: bold;
+  }
